@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: black;
+    width: 100vw;
+    z-index: 2;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-links{
+   background-color: black;
+   padding-top: 5px;
+   height: 230px;
+   position: absolute;
+   top: -263px;
+   left: 0;
+   right: 0;
+   transition: 0.49s;
+   z-index: 1;
+   text-align: center;
+}
+
+.nav-links-active{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.open-nav-links{
+    border: none;
+    background: none;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.close-nav-links{
+    position: absolute;
+    right: 3%;
+    top: 11%;
+    color: white;
+    background: none;
+    border: none;
+}
+
+main{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+
+ul li a{
+    padding: 10px;
+}
+
+.container-1{
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.contact-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2em;
+    column-gap: 1em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.bi-geo-alt-fill{
+    color: rgb(67, 172, 67);
+}
+
+.bi-telephone-fill{
+    color: rgb(165, 77, 42);
+}
+
+.bi-mailbox{
+    color: darkmagenta;
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-whatsapp{
+    color: rgb(2, 172, 53);
+}
+
+.contact{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    height: fit-content;
+    padding: 1em;
+}
+
+.contact-container :hover{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:768px) {
+    .contact-container{
+        grid-template-columns: auto;
+    }
+}

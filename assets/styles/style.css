@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: black;
+    width: 100vw;
+    z-index: 2;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-links{
+   background-color: black;
+   padding-top: 5px;
+   height: 230px;
+   position: absolute;
+   top: -263px;
+   left: 0;
+   right: 0;
+   transition: 0.49s;
+   z-index: 1;
+   text-align: center;
+}
+
+.nav-links-active{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.open-nav-links{
+    border: none;
+    background: none;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.close-nav-links{
+    position: absolute;
+    right: 3%;
+    color: white;
+    background: none;
+    border: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+ul li a{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.959);
+    height: fit-content;
+}
+
+.container{
+    padding-top: 13px;
+    text-align: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container a{
+    padding: 1em;
+}
+
+.copyright {
+    color: white;
+    padding-bottom: 1em;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-twitter{
+    color: rgb(0, 140, 255);
+}
+
+.bi-whatsapp{
+    color: rgb(2, 172, 53);
+}
+
+.bi-instagram{
+    color: rgb(241, 45, 241);
+}
+
+.admin-container{
+    padding-top: 1em;
+    text-align: center;
+}
+
+.admin{
+    height: 400px;
+    width: 400px;
+}
+
+@media screen and (max-width:345px){
+    .admin{
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .admin{
+        height: 300px;
+        width: 300px;
+    }
+}
